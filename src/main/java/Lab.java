@@ -33,11 +33,23 @@ public class Lab {
      *
      **/
     public int whileExample(int end){
+        int i = 1;
+        
         int sum = 0;
-        int i = 0;
-
-//        code here
-
+        while (i < end){
+            sum = sum + i;
+             i = i + 1;
+        }
         return sum;
+                  
+        
+        }
     }
-}
+         
+    
+        
+        
+    
+
+    
+
